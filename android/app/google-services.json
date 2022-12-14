@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "922491023940",
+    "project_id": "whatsapp-clone-codexveer",
+    "storage_bucket": "whatsapp-clone-codexveer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922491023940:android:2ecb79b2777f8916dc4211",
+        "android_client_info": {
+          "package_name": "com.codexveer.whatsapp_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922491023940-e5fnkvs3l9qudvibmgfmiim19vq35huk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTkoi9n0X7Y-vcqgtE5iGjKOpW2BHq2Yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922491023940-e5fnkvs3l9qudvibmgfmiim19vq35huk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "922491023940-llp2b1n6rd7mbgdf41u9e8qb37mcnedd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codexveer.whatsappClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
