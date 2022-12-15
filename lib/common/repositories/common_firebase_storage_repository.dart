@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'dart:io';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -18,6 +19,7 @@ class CommonFirebaseStorageRepository {
     UploadTask uploadTask = firebaseStorage.ref().child(ref).putFile(file);
     TaskSnapshot snap = await uploadTask;
     String downloadUrl = await snap.ref.getDownloadURL();
+    log('file uploaded to storage');
     return downloadUrl;
   }
 }
