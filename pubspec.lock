@@ -14,7 +14,7 @@ packages:
       name: agora_rtc_engine
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "6.0.0"
+    version: "5.3.1"
   agora_rtm:
     dependency: transitive
     description:
@@ -28,7 +28,7 @@ packages:
       name: agora_uikit
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "1.0.2"
   async:
     dependency: transitive
     description:
@@ -506,13 +506,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.17.0"
-  iris_event:
-    dependency: transitive
-    description:
-      name: iris_event
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.2.0"
   js:
     dependency: transitive
     description:
@@ -645,14 +638,14 @@ packages:
       name: permission_handler
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "10.2.0"
+    version: "9.2.0"
   permission_handler_android:
     dependency: transitive
     description:
       name: permission_handler_android
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "10.2.0"
+    version: "9.0.2+1"
   permission_handler_apple:
     dependency: transitive
     description:

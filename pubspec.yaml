@@ -29,7 +29,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  agora_uikit: ^1.1.0
+  agora_uikit: ^1.0.2
   audioplayers: ^1.0.1
   cached_network_image: ^3.2.1
   cached_video_player: ^2.0.3
@@ -51,7 +51,7 @@ dependencies:
   image_picker: ^0.8.6
   intl: ^0.17.0
   path_provider: ^2.0.11
-  permission_handler: ^10.2.0
+  permission_handler: ^9.2.0
   story_view: ^0.14.0
   swipe_to: ^1.0.2
   uuid: ^3.0.6
