@@ -44,6 +44,6 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-#API KEYS
-/lib/config/
-/lib/config/agora_config.dart
+# #API KEYS
+# /lib/config/
+# /lib/config/agora_config.dart
