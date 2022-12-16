@@ -31,6 +31,8 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+/lib/config/
+/configurations/
 /lib/constants.dart
 
 # Symbolication related
@@ -43,3 +45,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# #API KEYS
+# /lib/config/
+# /lib/config/agora_config.dart
