@@ -15,6 +15,8 @@ In this flutter project full stack implementation of WhatsApp has been done usin
 ![Screenshot (171)](https://user-images.githubusercontent.com/91900783/207920619-6d471719-9a19-4392-b2da-08cefa388689.png)
 
 
+<img src="https://user-images.githubusercontent.com/91900783/208113088-bc779660-be89-41ff-8ff8-6a761565bd69.png" width="48%" height="100%">  <img src="https://user-images.githubusercontent.com/91900783/208112522-acc588d6-e77a-4246-b953-cd0ccda82a65.png" width="48%" height="100%">
+
 # Screen Recording of Application
 [ #1 ] [.mp4] :
 
