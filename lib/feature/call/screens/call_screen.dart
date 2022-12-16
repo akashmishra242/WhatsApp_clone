@@ -25,7 +25,6 @@ class CallScreen extends ConsumerStatefulWidget {
 
 class _CallScreenState extends ConsumerState<CallScreen> {
   AgoraClient? client;
-  //String baseUrl = 'https://whatsapp-clone-rrr.herokuapp.com';
   String baseUrl = c.baseUrl;
 
   @override
@@ -34,12 +33,8 @@ class _CallScreenState extends ConsumerState<CallScreen> {
     client = AgoraClient(
       agoraConnectionData: AgoraConnectionData(
         appId: AgoraConfig.appId,
-        channelName: 'channel_2',
-        //channelName: widget.channelId,
-        tempToken:
-            '007eJxTYNio8+Wp0Lvlt84rB5Uefn3EZGF98BOFbSbVs2y+8R7nu8uuwJBomZhoZmxqkGpskWZibpJqYWxqZJZkYGFqbGaWbJxkcLJgTnJDICNDdFwGEyMDBIL4nAzJGYl5eak58UYMDABpzyHt',
-
-        //tokenUrl: baseUrl,
+        channelName: widget.channelId,
+        tokenUrl: baseUrl,
       ),
     );
     initAgora();
