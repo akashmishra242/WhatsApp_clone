@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -35,11 +37,14 @@ class CallRepository {
       await firestore
           .collection('call')
           .doc(senderCallData.callerId)
-          .set(senderCallData.toMap());
-      await firestore
-          .collection('call')
-          .doc(senderCallData.receiverId)
-          .set(receiverCallData.toMap());
+          .set(senderCallData.toMap())
+          .then((_) => {
+                firestore
+                    .collection('call')
+                    .doc(senderCallData.receiverId)
+                    .set(receiverCallData.toMap()),
+                log("call data saved to firestore"),
+              });
 
       Navigator.push(
         context,
@@ -66,6 +71,7 @@ class CallRepository {
           .collection('call')
           .doc(senderCallData.callerId)
           .set(senderCallData.toMap());
+      log("group call data saved to firestore");
 
       var groupSnapshot = await firestore
           .collection('groups')
@@ -115,12 +121,17 @@ class CallRepository {
   ) async {
     try {
       await firestore.collection('call').doc(callerId).delete();
-      var groupSnapshot =
-          await firestore.collection('groups').doc(receiverId).get();
-      model.Group group = model.Group.fromMap(groupSnapshot.data()!);
-      for (var id in group.membersUid) {
-        await firestore.collection('call').doc(id).delete();
-      }
+      var groupSnapshot = await firestore
+          .collection('groups')
+          .doc(receiverId)
+          .get()
+          .then((value) => {
+                for (var id in model.Group.fromMap(value.data()!).membersUid)
+                  {
+                    firestore.collection('call').doc(id).delete(),
+                    log('Deleted group call recierver'),
+                  }
+              });
     } catch (e) {
       showSnackBar(context: context, content: e.toString());
     }
