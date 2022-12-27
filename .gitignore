@@ -35,7 +35,7 @@ migrate_working_dir/
 /configurations/
 /lib/constants.dart
 /assets/
-
+.git.bfg-report/
 # Symbolication related
 app.*.symbols
 
