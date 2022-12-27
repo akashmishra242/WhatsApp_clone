@@ -28,11 +28,3 @@ In this flutter project full stack implementation of WhatsApp has been done usin
 <!---
 [<iframe src="https://drive.google.com/file/d/1NG8RazkVu-F-aEEzwdHzG2C8C5Do_HpL/preview" width="640" height="480" allow="autoplay"></iframe>](https://drive.google.com/file/d/1NG8RazkVu-F-aEEzwdHzG2C8C5Do_HpL/view?usp=sharing)
 --->
-<!---
-[ #2 ] [ .gif ] :
-
-[![googledrive](https://img.shields.io/badge/googledrive-ffce44?style=for-the-badge&logo=googledrive&logoColor=red)](https://drive.google.com/file/d/1MlCS2jf-F7Xi_m0K-3OHUozuK7ajsueL/view?usp=sharing)
---->
-# [.apk] file link
-
-[![googledrive](https://img.shields.io/badge/googledrive-DB4437?style=for-the-badge&logo=googledrive&logoColor=green)](https://drive.google.com/file/d/1OymDtZwtxCejopffnKpUd3d7Rz06Fj3w/view?usp=sharing)
