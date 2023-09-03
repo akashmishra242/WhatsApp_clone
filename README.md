@@ -1,4 +1,4 @@
-# whatsapp_clone
+# SwiftChat
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akashmishra242/WhatsApp_clone?style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/akashmishra242/WhatsApp_clone?color=important&style=plastic) 
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/akashmishra242/WhatsApp_clone?color=cyan&style=plastic) 
